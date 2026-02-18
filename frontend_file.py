@@ -1,7 +1,10 @@
 import streamlit as st
 import requests
+import os
 
  # Change this URL to the one of your API
+ 
+API_URL = os.getenv('API_URL')
 
 st.title("My awesome MVP")
 
