@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 
  # Change this URL to the one of your API
-API_URL = "https://my-api-app4-726569711154.europe-west1.run.app/"
 
 st.title("My awesome MVP")
 
